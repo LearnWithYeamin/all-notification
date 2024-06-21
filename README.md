@@ -8,10 +8,7 @@
 
 ## Step 1: change to `firebase.php` code.
 ```php
-$arrayToSend = array(
-    'topic' => 'allDevices', // Specify the topic name
-    'data' => $datamsg
-);
+$arrayToSend = array('topic' => 'allDevices','data' => $datamsg);
 ```
 ## Step 2: change to `java` code.
 ```java
